@@ -5,4 +5,4 @@ Box of Books
 A basic static Book Website using html,css where one can view books,catalogue,register or login
 
 ## To view Website
-[View project](https://Asmein/Static-Book-Website/book.html)
+[View project](https://Asmein.github.io/Static-Book-Website/book.html)
