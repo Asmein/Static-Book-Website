@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* Apply a gradient to the text inside h1 */
+        h1 {
+            background: repeating-linear-gradient(to right, #422f27, #6e5c11); /* Gradient color */
+            color: transparent; /* Make the text transparent to show the background gradient */
+            background-clip: text; /* Clip the background to the text */
+            -webkit-background-clip: text; /* Safari-specific syntax */
+            font-size: 2em; /* Font size */
+            font-weight: bold; /* Make text bold for better visibility */
+            text-align: center; /* Center the text */
+            animation: moveText 2s ease-in-out infinite; /* Infinite animation */
+        }
+
+        /* Keyframe animation for continuous movement */
+        @keyframes moveText {
+            0% {
+                transform: translateX(0); /* Start at original position */
+            }
+            50% {
+                transform: translateX(5px); /* Move slightly to the right */
+            }
+            100% {
+                transform: translateX(0); /* Return to original position */
+            }
+        }
+    </style>
+</head>
+<body bgcolor="aliceblue">
+
+<br><br>
+<h1>
+    "Unleash your imagination and knowledge with just a click. Explore a vast collection of books at unbeatable prices, and let your next great read begin today!"
+</h1>
+
+</body>
+</html>
